@@ -1,0 +1,49 @@
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.background {
+    background-image: url('https://ik.imagekit.io/manu6268/4seasons/IMG-20250208-WA0054.jpg?updatedAt=1743406411451');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:end;
+    color: white;
+    text-align: center;
+}
+
+.names {
+    margin-top: 20px;
+}
+
+.names a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    transition: color 0.3s;
+}
+.names a:hover {
+    color: rgb(253, 253, 253);
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align:center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
