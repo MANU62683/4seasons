@@ -10,14 +10,14 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content:end;
+    justify-content:space-between;
     color: white;
     text-align: center;
 }
 
 .names {
     margin-top: 20px;
-}
+    }
 
 .names a {
     color: black;
@@ -31,7 +31,7 @@
 }
 .button {
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #f4511e;
   border: none;
   color: #FFFFFF;
@@ -48,3 +48,23 @@
     transform: translateY(-5px);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+  footer {
+    text-align: center;
+    padding: 5px;
+    background:none;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 99.2%; 
+  }
+.heading {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+.heading:hover{
+  color:white;
+}
